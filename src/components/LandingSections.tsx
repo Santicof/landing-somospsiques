@@ -280,7 +280,7 @@ export function Contact() {
           <address className="contact-details">
             <a href={contact.mapsUrl} target="_blank" rel="noreferrer"><MapPin /><span><strong>Consultorio</strong>{contact.address}</span></a>
             <div><Clock3 /><span><strong>Horarios</strong>{contact.hours}</span></div>
-            <a href={`mailto:${contact.email}`}><Mail /><span><strong>Correo</strong>{contact.email}</span></a>
+            <a href={contact.emailUrl} aria-label={`Enviar un correo a ${contact.email}`}><Mail /><span><strong>Correo</strong>{contact.email}</span></a>
             <a href={contact.instagramUrl} target="_blank" rel="noreferrer"><AtSign /><span><strong>Instagram</strong>{contact.instagram}</span></a>
           </address>
         </div>

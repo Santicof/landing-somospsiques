@@ -12,6 +12,8 @@ export const contact = {
   whatsappUrl:
     'https://wa.me/5491131404501?text=Hola%2C%20quisiera%20realizar%20una%20consulta%20sobre%20la%20atenci%C3%B3n%20en%20Consultorio%20Integral%20Psique.',
   email: 'lic.jimenacofman@gmail.com',
+  emailUrl:
+    'mailto:lic.jimenacofman@gmail.com?subject=Consulta%20desde%20la%20web%20de%20Consultorio%20Integral%20Psique&body=Hola%20Jimena%2C%0A%0AQuisiera%20realizar%20una%20consulta%20sobre%20la%20atenci%C3%B3n.%0A%0AGracias.',
   instagram: '@consultoriointegral_psique',
   instagramUrl: 'https://www.instagram.com/consultoriointegral_psique/',
   address: 'Rotta 219, Monte Grande, Buenos Aires 1842',
