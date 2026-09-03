@@ -113,7 +113,7 @@ function TrustStrip() {
         {[
           ['Atención especializada', 'Infancia y adolescencia'],
           ['Modalidad flexible', 'Presencial y virtual'],
-          ['Dirección profesional', 'Matrícula 75280'],
+          ['Atención coordinada', 'Trabajo interdisciplinario'],
           ['Cobertura', 'Consultanos por atención con CUD'],
         ].map(([title, description]) => (
           <div key={title}>
@@ -210,11 +210,10 @@ export function Director() {
           )}
         </div>
         <div className="director-copy">
-          <p className="eyebrow">Dirección profesional</p>
+          <p className="eyebrow">Sobre Jimena</p>
           <blockquote>“Cada proceso comienza por hacer lugar a una escucha atenta y a una mirada integral.”</blockquote>
           <h2>Lic. Jimena Cofman</h2>
           <p className="director-role">Psicóloga TCC · Clínica infantojuvenil · Directora</p>
-          <p className="license">Matrícula profesional 75280</p>
         </div>
       </div>
     </section>
