@@ -288,7 +288,6 @@ export function Contact() {
         <div className="container footer-inner">
           <Brand compact />
           <p>© {new Date().getFullYear()} Consultorio Integral Psique.</p>
-          <p>Este sitio no reemplaza servicios de atención de urgencias.</p>
         </div>
       </footer>
       <a className="floating-whatsapp" href={contact.whatsappUrl} target="_blank" rel="noreferrer" aria-label="Consultar por WhatsApp">
