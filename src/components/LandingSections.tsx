@@ -157,7 +157,7 @@ export function Approach() {
     <section className="section approach-section" id="enfoque">
       <div className="container approach-grid">
         <div className="approach-image">
-          <img src="/assets/consultorio-trabajo.jpeg" alt="Materiales preparados para una actividad terapéutica" loading="lazy" width="960" height="1280" />
+          <img src="/assets/consultorio-enfoque.jpeg" alt="Consultorio privado preparado para entrevistas y orientación familiar" loading="lazy" width="1200" height="1600" />
         </div>
         <div className="approach-copy">
           <p className="eyebrow">Nuestro enfoque</p>
