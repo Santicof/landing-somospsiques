@@ -119,7 +119,7 @@ p { line-height: 1.65; }
 .director-section { overflow: hidden; background: var(--lavender-pale); }
 .director-grid { display: grid; grid-template-columns: .86fr 1.14fr; align-items: center; gap: 9vw; }
 .director-photo { aspect-ratio: 4 / 5; max-height: 670px; border-radius: 8px 190px 8px 8px; overflow: hidden; }
-.director-portrait { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.director-portrait { width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
 .pending-photo { display: grid; place-content: center; justify-items: center; gap: 20px; border: 1px solid #cbd0df; color: var(--lavender-deep); background: var(--white); }
 .pending-photo img { width: 175px; height: 175px; border-radius: 50%; }
 .pending-photo span { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }

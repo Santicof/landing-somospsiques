@@ -197,8 +197,8 @@ export function Director() {
               className="director-portrait"
               src="/assets/jimena-cofman.jpg"
               alt="Licenciada Jimena Cofman, directora de Consultorio Integral Psique"
-              width="960"
-              height="1280"
+              width="900"
+              height="1600"
               loading="lazy"
               onError={() => setPortraitAvailable(false)}
             />
@@ -226,7 +226,7 @@ export function Gallery() {
     <section className="section gallery-section" id="consultorio">
       <div className="container">
         <div className="section-heading">
-          <div><p className="eyebrow">El consultorio</p><h2>Espacios pensados para sentirse a gusto</h2></div>
+          <div><p className="eyebrow">El consultorio</p><h2>Nuestro espacio</h2></div>
           <p>Ambientes luminosos, privados y preparados para distintas formas de encuentro y trabajo.</p>
         </div>
         <div className="gallery-grid">
