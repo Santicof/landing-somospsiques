@@ -288,6 +288,9 @@ export function Contact() {
         <div className="container footer-inner">
           <Brand compact />
           <p>© {new Date().getFullYear()} Consultorio Integral Psique.</p>
+          <a className="credit" href="https://www.instagram.com/san.nfc/" target="_blank" rel="noreferrer">
+            Sitio creado por @san.nfc
+          </a>
         </div>
       </footer>
       <a className="floating-whatsapp" href={contact.whatsappUrl} target="_blank" rel="noreferrer" aria-label="Consultar por WhatsApp">

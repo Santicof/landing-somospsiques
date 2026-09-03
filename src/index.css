@@ -159,9 +159,11 @@ p { line-height: 1.65; }
 .contact-details span { display: grid; gap: 2px; font-size: .86rem; line-height: 1.45; }
 .contact-details strong { font-size: .75rem; text-transform: uppercase; }
 .footer { padding-block: 30px; color: #aeb2bf; background: var(--ink); font-size: .75rem; }
-.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.footer-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px; }
 .footer .brand { color: var(--white); }
 .footer p { margin: 0; }
+.credit { color: #aeb2bf; font-size: .72rem; opacity: .75; transition: opacity 180ms ease; }
+.credit:hover { opacity: 1; }
 .floating-whatsapp { position: fixed; z-index: 40; right: 20px; bottom: 20px; display: none; width: 56px; height: 56px; place-items: center; border: 2px solid var(--white); border-radius: 50%; color: var(--white); background: var(--lavender-deep); box-shadow: 0 12px 28px rgb(32 37 56 / 28%); }
 
 .reveal { animation: reveal 650ms both; animation-delay: calc(var(--order, 0) * 70ms); }
